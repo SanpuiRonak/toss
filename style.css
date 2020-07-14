@@ -31,7 +31,6 @@ h1 {
   --radius: 17rem;
   height: var(--radius);
   width: var(--radius);
-  /* background-color: green; */
   border-radius: 50%;
 }
 
@@ -40,7 +39,6 @@ h1 {
   height: 100%;
   border-radius: 50%;
   transform-style: preserve-3d;
-  /* transition: all 0.5s ease; */
   background-color: gray;
   backface-visibility: hidden;
   position: relative;
@@ -63,17 +61,4 @@ h1 {
   background-color: lightcoral;
   transform: rotateY(180deg);
   position: absolute;
-}
-
-/* .coin:hover {
-  transition: linear 1s;
-  transform: rotateY(180deg);
-} */
-@keyframes flip {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(180deg);
-  }
 }

@@ -9,10 +9,13 @@ function main() {
 let x = 0;
 function flipCoin() {
   const coin = document.getElementById("c");
-  console.log(coin);
 
   let cState = x % 360 ? 1 : 0;
-  if (cState === getRand()) {
+  let next = getRand();
+  // console.log(cState);
+  console.log(next);
+
+  if (cState === next) {
     x += 900;
   } else {
     x += 900 - 180;
